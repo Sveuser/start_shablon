@@ -1,0 +1,405 @@
+@import "vars"
+
+@media (min-width: 992px) and (max-width: 1200px)
+
+	header
+		padding: 20px 0
+		.box_navbar .list_navbar li
+			a
+				font-size: 14px
+			i
+				font-size: 15px
+		.box_phone .phone
+			font-size: 22px
+			padding-left: 35px
+			i
+				font-size: 23px
+
+	.intro_main
+		padding-bottom: 50px
+		.intro_slider .item .d-flex
+			height: 550px
+			.box_logo img
+				width: 370px
+			.box_caption .caption_intro
+				font-size: 32px
+				padding: 30px 0 30px
+				margin-top: 45px
+		.block__list_control
+			bottom: 20px
+			.list_control .item .img_wrapper
+				height: 90px
+
+	.productions .list_productions
+		margin-left: -20px
+		margin-right: -20px
+		.item
+			padding: 0 20px
+			.wrap
+				.img_wrapper
+					height: 290px
+				.description
+					.name
+						font-size: 18px
+						line-height: 24px
+						margin-bottom: 20px
+					.sub
+						font-size: 14px
+	.projects .list_projects
+		margin-left: -15px
+		margin-right: -15px
+		.item
+			padding: 0 15px
+
+@media (min-width: 320px) and (max-width: 991px)
+
+	.block-btn-fixed, .open-btn-fixed
+		bottom: 30px
+	.block-btn-fixed .btn-up, .open-btn-fixed .btn-up
+		width: 45px
+		height: 45px
+	.block-btn-fixed .btn-up .icon_up, .open-btn-fixed .btn-up .icon_up
+		background: url(../img/png/up.png) 0 0 no-repeat
+		background-size: cover
+		width: 45px
+		height: 45px
+	.block-btn-fixed .btn-call, .open-btn-fixed .btn-call
+		width: 45px
+		height: 45px
+		margin-bottom: 30px
+	.block-btn-fixed .btn-call .icon_call
+		background: url(../img/png/call_back.png) 0 0 no-repeat
+		background-size: cover
+		width: 45px
+		height: 45px
+	.open-btn-fixed
+		.btn-call .icon_call
+			background: url(../img/png/call_back.png) 0 0 no-repeat
+			background-size: cover
+			width: 45px
+			height: 45px
+		right: 10px
+		opacity: 1
+	.block_caption_main
+		padding-bottom: 20px
+		margin-bottom: 40px
+		&:before
+			width: 60%
+			margin-left: -30%
+		.caption_main
+			font-size: 24px
+	.modal_form
+		padding: 45px 15px
+		&.project_modal
+			max-width: 700px
+			.content_modal .img_wrapper
+				height: 200px
+
+	.btn_main
+		padding: 13px 35px 13px
+		font-size: 14px
+
+	.wrapper
+		position: relative
+		left: 0
+		overflow: hidden
+		transition: 0.3s
+		&.active_navbar header
+			.box__btn_navbar .btn_navbar span
+				&.line1
+					transform: rotate(45deg) translate(7px, 7px)
+				&.line2
+					left: -40px
+					opacity: 0
+				&.line3
+					transform: rotate(-45deg) translate(7px, -7px)
+			.box_navbar
+				left: 0
+	header
+		padding: 10px 0
+		.box__btn_navbar
+			position: relative
+			z-index: 888
+			display: block
+			.btn_navbar
+				background: none
+				border: none
+				padding: 0
+				position: relative
+				top: 4px
+				span
+					display: block
+					width: 27px
+					height: 2px
+					background: #fff
+					margin: 8px
+					position: relative
+					left: 0
+					transition: 0.3s
+		.box_navbar
+			display: block
+			z-index: 444
+			position: fixed
+			top: 0
+			left: -210px
+			bottom: 0
+			height: 100vh
+			width: 210px
+			background: #363a3d
+			transition: 0.3s
+			display: flex
+			align-items: center
+			.list_navbar li
+				a
+					padding: 16px 12px
+					font-size: 16px
+				i
+					display: none
+		.box_phone .phone
+			font-size: 18px
+			padding-left: 30px
+			i
+				top: 2px
+				font-size: 22px
+
+	.intro_main
+		padding-bottom: 40px
+		.intro_slider .item .d-flex
+			height: 500px
+			.box_caption
+				text-align: center
+				.caption_intro
+					font-size: 24px
+					line-height: 28px
+					font-weight: bold
+					padding: 25px 0
+					margin-top: 25px
+					letter-spacing: 1px
+		.block__list_control
+			bottom: 15px
+			.list_control
+				width: 100%
+				.item
+					padding: 7px
+					.img_wrapper
+						height: 50px
+						border: 1px solid #fff
+						&:hover
+							border: 1px solid #c83528
+
+	.productions
+		padding: 45px 0
+		.list_productions .item
+			margin-bottom: 20px
+			.wrap
+				.img_wrapper
+					height: 300px
+				.description
+					padding: 10px
+					.name
+						font-size: 18px
+						line-height: 24px
+						margin-bottom: 20px
+					.sub
+						font-size: 14px
+						line-height: 20px
+	.tehnology
+		padding: 55px 0
+		.list_tehonoly .item
+			margin-bottom: 30px
+			.description
+				width: 100%
+				padding-left: 45px
+				.icon
+					width: 30px
+					top: 5px
+				.title
+					font-size: 15px
+					line-height: 22px
+					padding-bottom: 5px
+				.sub
+					font-size: 14px
+					line-height: 22px
+	.projects
+		padding: 55px 0
+		.list_projects .item
+			margin-bottom: 25px
+	.partners
+		padding: 55px 0
+	.contacts
+		padding: 55px 0 30px
+		.sub
+			width: 100%
+			font-size: 14px
+			line-height: 21px
+			margin-bottom: 30px
+		.item
+			margin-bottom: 30px
+			address
+				padding-left: 40px
+				i
+					font-size: 30px
+					top: 2px
+				.title
+					font-size: 20px
+					margin-bottom: 5px
+				.contacts_text
+					font-size: 13px
+					line-height: 19px
+
+	footer
+		padding: 55px 0 170px
+		.block_caption_main
+			margin-bottom: 10px
+		.box_form .block_form
+			width: 90%
+			.group
+				input
+					padding: 12px 15px
+					font-size: 14px
+				textarea
+					padding: 12px 15px
+					font-size: 14px
+					min-height: 100px
+			.group_check label
+				width: 100%
+		.sub_foot
+			padding: 15px 0
+			text-align: center
+			.box_counter
+				.link_map
+					font-size: 11px
+					margin: 0px
+					padding-right: 5px
+				.counter_wrap
+					margin: 0 10px
+			.sub
+				text-align: center
+				width: 100%
+				font-size: 13px
+				margin-bottom: 15px
+			.networks
+				margin-top: 15px
+				display: flex
+				width: 100%
+				justify-content: center
+				li
+					margin: 0 7px
+
+@media (min-width: 768px) and (max-width: 991px)
+
+	.intro_main
+		padding-bottom: 40px
+		.intro_slider .item .d-flex
+			height: 600px
+			.box_caption
+				text-align: center
+				.caption_intro
+					font-size: 30px
+					line-height: 48px
+		.block__list_control
+			bottom: 15px
+			.list_control
+				width: 100%
+				.item
+					padding: 7px
+					.img_wrapper
+						height: 80px
+						border: 1px solid #fff
+						&:hover
+							border: 1px solid #c83528
+
+	.productions
+		padding: 45px 0
+		.list_productions
+			margin-left: -8px
+			margin-right: -8px
+			.item
+				margin-bottom: 20px
+				padding: 8px
+				.wrap
+					.img_wrapper
+						height: 270px
+					.description
+						padding: 10px
+						.name
+							font-size: 16px
+							line-height: 24px
+							margin-bottom: 10px
+						.sub
+							font-size: 13px
+							line-height: 18px
+	.projects .list_projects
+		margin-left: 0px
+		margin-right: 0px
+		.item
+			padding: 0 20px
+			margin-bottom: 25px
+
+	footer
+		.box_form .block_form
+			width: 80%
+			.group_check label
+				width: 70%
+		.sub_foot
+			.sub
+				margin-bottom: 0
+			.networks
+				margin-top: 0
+
+@media (min-width: 430px) and (max-width: 767px)
+	.container
+		width: 400px
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	/**/
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
